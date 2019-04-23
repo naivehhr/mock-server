@@ -10,5 +10,9 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "track": {
+    "view": ["https://sugar.zhihu.com/mock-view"],
+    "click": ["https://sugar.zhihu.com/mock-click"]
   }
 }
