@@ -1,18 +1,232 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "tags": {
+    "data": [
+      {
+        "id": 1,
+        "code": 1,
+        "name": "数码科技"
+      },
+      {
+        "id": 2,
+        "code": 2,
+        "name": "动漫"
+      },
+      {
+        "id": 3,
+        "code": 3,
+        "name": "生活服务"
+      }
+    ]
   },
-  "track": {
-    "view": ["https://sugar.zhihu.com/mock-view"],
-    "click": ["https://sugar.zhihu.com/mock-click"]
+  "pu": {
+    "paging": {
+      "is_end": true,
+      "is_start": true,
+      "next": "string",
+      "previous": "string",
+      "totals": 30
+    },
+    "data": [
+      {
+        "id": 666,
+        "name": "string",
+        "type": "mcn客户",
+        "quota": 2000,
+        "quota_type": "每月",
+        "telephone": "string",
+        "company_name": "string",
+        "business_license_url": "string",
+        "unified_social_credit_card": "string",
+        "corporate_front_id_card_url": "string",
+        "corporate_back_id_card_url": "string",
+        "bank_name": "string",
+        "bank_account": "string",
+        "account_opening_license_url": "string",
+        "brand_intro": "string",
+        "additional_document": "string",
+        "contact_name": "string",
+        "contact_phone_number": "string",
+        "remark": "string",
+        "is_enabled": true,
+        "created_at": 0
+      },
+      {
+        "id": 222,
+        "name": "string",
+        "type": "爱谁苏的客户",
+        "quota": 500,
+        "quota_type": "每月",
+        "telephone": "string",
+        "company_name": "string",
+        "business_license_url": "string",
+        "unified_social_credit_card": "string",
+        "corporate_front_id_card_url": "string",
+        "corporate_back_id_card_url": "string",
+        "bank_name": "string",
+        "bank_account": "string",
+        "account_opening_license_url": "string",
+        "brand_intro": "string",
+        "additional_document": "string",
+        "contact_name": "string",
+        "contact_phone_number": "string",
+        "remark": "string",
+        "is_enabled": true,
+        "created_at": 0
+      }
+    ]
+  },
+  "customer": {
+    "id": 321,
+    "name": "string",
+    "type": 2,
+    "quota": 2000,
+    "quota_type": 2,
+    "telephone": "string",
+    "company_name": "string",
+    "business_license_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+    "unified_social_credit_card": "123123123",
+    "corporate_front_id_card_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+    "corporate_back_id_card_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+    "bank_name": "string",
+    "bank_account": "string",
+    "account_opening_license_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+    "brand_intro": "string",
+    "additional_document": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+    "contact_name": "string",
+    "contact_phone_number": "string",
+    "remark": "string",
+    "is_enabled": true,
+    "created_at": 0
+  },
+  "customers": {
+    "paging": {
+      "is_end": true,
+      "is_start": true,
+      "next": "string",
+      "previous": "string",
+      "totals": 30
+    },
+    "data": [
+      {
+        "id": 123333,
+        "name": "string",
+        "type": "mcn客户",
+        "quota": 2000,
+        "quota_type": "每月",
+        "telephone": "string",
+        "company_name": "string",
+        "business_license_url": "string",
+        "unified_social_credit_card": "string",
+        "corporate_front_id_card_url": "string",
+        "corporate_back_id_card_url": "string",
+        "bank_name": "string",
+        "bank_account": "string",
+        "account_opening_license_url": "string",
+        "brand_intro": "string",
+        "additional_document": "string",
+        "contact_name": "string",
+        "contact_phone_number": "string",
+        "remark": "string",
+        "is_enabled": true,
+        "created_at": 0
+      },
+      {
+        "id": 222,
+        "name": "string",
+        "type": "爱谁苏的客户",
+        "quota": 500,
+        "quota_type": "每月",
+        "telephone": "string",
+        "company_name": "string",
+        "business_license_url": "string",
+        "unified_social_credit_card": "string",
+        "corporate_front_id_card_url": "string",
+        "corporate_back_id_card_url": "string",
+        "bank_name": "string",
+        "bank_account": "string",
+        "account_opening_license_url": "string",
+        "brand_intro": "string",
+        "additional_document": "string",
+        "contact_name": "string",
+        "contact_phone_number": "string",
+        "remark": "string",
+        "is_enabled": true,
+        "created_at": 0
+      }
+    ]
+  },
+  "mcn": {
+    "id": 666,
+    "name": "TM传媒",
+    "email": "bingqi123@163.com",
+    "telephone": "15101075739",
+    "company_name": "意格传媒有限公司",
+    "company_intro": "随便的一个公司",
+    "skill_field_list": ["1", "3"],
+    "business_license_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+    "unified_social_credit_card": "string",
+    "corporate_front_id_card_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+    "corporate_back_id_card_url": "http://b-ssl.duitang.com/uploads/item/201506/16/20150616140410_Et43a.jpeg",
+    "bank_name": "string",
+    "bank_account": "string",
+    "account_opening_license_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+    "contact_name": "string",
+    "contact_phone_number": "string",
+    "remark": "string",
+    "created_at": 1546275661000,
+    "is_enabled": true
+  },
+  "mcns": {
+    "paging": {
+      "is_end": true,
+      "is_start": true,
+      "next": "string",
+      "previous": "string",
+      "totals": 10
+    },
+    "data": [
+      {
+        "id": 123,
+        "name": "意格传媒",
+        "email": "bingqi123@163.com",
+        "telephone": "15101075739",
+        "company_name": "意格传媒有限公司",
+        "company_intro": "随便的一个公司",
+        "skill_field_list": ["string"],
+        "business_license_url": "string",
+        "unified_social_credit_card": "string",
+        "corporate_front_id_card_url": "string",
+        "corporate_back_id_card_url": "string",
+        "bank_name": "string",
+        "bank_account": "string",
+        "account_opening_license_url": "string",
+        "contact_name": "string",
+        "contact_phone_number": "string",
+        "remark": "string",
+        "created_at": 1546275661000,
+        "is_enabled": true
+      },
+      {
+        "id": 123,
+        "name": "意格传媒",
+        "email": "bingqi123@163.com",
+        "telephone": "15101075739",
+        "company_name": "意格传媒有限公司",
+        "company_intro": "随便的一个公司",
+        "skill_field_list": ["string"],
+        "business_license_url": "string",
+        "unified_social_credit_card": "string",
+        "corporate_front_id_card_url": "string",
+        "corporate_back_id_card_url": "string",
+        "bank_name": "string",
+        "bank_account": "string",
+        "account_opening_license_url": "string",
+        "contact_name": "string",
+        "contact_phone_number": "string",
+        "remark": "string",
+        "created_at": 1546275661000,
+        "is_enabled": false
+      }
+    ]
   }
 }
