@@ -1,5 +1,176 @@
 {
-  "tags": {
+  "task": {
+    "id": 1,
+    "title": "我是一个任务",
+    "deadline": 1546275661000,
+    "type": 1,
+    "question_url": "www.qq.com",
+    "cost_price": 10000,
+    "implement_price": 200000,
+    "detail": "详情",
+    "mcn_id": 123,
+    "pu_id": 512,
+    "created_at": 1546275661000,
+    "task_status": 1,
+    "pu_refund": 10000,
+    "mcn_refund": 10,
+    "task_url": "string",
+    "pu_score": "「1分，很差」",
+    "customer_id": 222,
+    "brand_name": "我是一个客户",
+    "brand_intro": "我应该怎么介绍",
+    "brand_url": "string",
+    "attachment_id": {
+      "file_name": "我是个附件",
+      "preview_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+    },
+    "contact_name": "凹凸曼",
+    "contact_phone_number": "1511112121212"
+  },
+  "tasks": {
+    "paging": {
+      "is_end": true,
+      "is_start": true,
+      "next": "string",
+      "previous": "string",
+      "totals": 30
+    },
+    "data": [
+      {
+        "id": 1,
+        "title": "我是一个任务",
+        "deadline": 1546275661000,
+        "type": 1,
+        "question_url": "www.qq.com",
+        "cost_price": 10000,
+        "implement_price": 200000,
+        "detail": "详情",
+        "mcn_id": 123,
+        "pu_id": 512,
+        "created_at": 1546275661000,
+        "task_status": 1,
+        "pu_refund": 10000,
+        "mcn_refund": 10,
+        "task_url": "string",
+        "pu_score": "「1分，很差」",
+        "customer_id": 222,
+        "brand_name": "我是一个客户",
+        "brand_intro": "我应该怎么介绍",
+        "brand_url": "string",
+        "attachment_id": {
+          "file_name": "我是个附件",
+          "preview_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+        },
+        "contact_name": "凹凸曼",
+        "contact_phone_number": "1511112121212"
+      },
+      {
+        "id": 2,
+        "title": "攻陷美国",
+        "deadline": 1546275661000,
+        "type": 1,
+        "question_url": "www.qq.com",
+        "cost_price": 10000,
+        "implement_price": 200000,
+        "detail": "详情",
+        "mcn_id": 123,
+        "pu_id": 512,
+        "created_at": 1546275661000,
+        "task_status": 1,
+        "pu_refund": 10000,
+        "mcn_refund": 10,
+        "task_url": "string",
+        "pu_score": "「1分，很差」",
+        "customer_id": 222,
+        "brand_name": "我是一个客户",
+        "brand_intro": "我应该怎么介绍",
+        "brand_url": "string",
+        "attachment_id": {
+          "file_name": "我是个附件",
+          "preview_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+        },
+        "contact_name": "凹凸曼",
+        "contact_phone_number": "1511112121212"
+      }
+    ]
+  },
+  "pu": {
+    "id": 2,
+    "name": "string",
+    "bind_mcn": "string",
+    "industry": ["string"],
+    "telephone": "string",
+    "weixin": "string",
+    "id_card_num": "string",
+    "id_card_name": "string",
+    "follower_num": 0,
+    "personal_hot": 0,
+    "profession": "string",
+    "industry_hot": [
+      {"name": "其他", "exponent": 84},
+      {"name": "导购", "exponent": 88}
+    ],
+    "topic": ["阅读", "时间管理", "生活", "学习", "心理学"],
+    "resident": ["其他"],
+    "is_expert": true,
+    "field": ["时间管理"],
+    "answer_num": 0,
+    "upvoted_num": 0,
+    "answer_word_300": 0,
+    "quote": [
+      {
+        "task_type": "特邀",
+        "price": 0
+      }
+    ],
+    "other_account": [],
+    "remark": [{"cate": "2", "content": "一到二周"}]
+  },
+  "industry": [
+    {
+      "id": 1,
+      "name": "商业",
+      "sub_industry": [
+        {
+          "id": 3,
+          "name": "商务服务",
+          "sub_industry": [
+            {
+              "id": 32,
+              "name": "求职招聘"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "爱谁谁",
+          "sub_industry": [
+            {
+              "id": 51,
+              "name": "求职招聘"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "社区",
+      "sub_industry": [
+        {
+          "id": 4,
+          "name": "商务服务",
+          "sub_industry": [
+            {
+              "id": 42,
+              "name": "求职招聘"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "filed-tags": {
     "data": [
       {
         "id": 1,
@@ -18,7 +189,80 @@
       }
     ]
   },
-  "pu": {
+  "recharge-audit": {
+    "id": 666,
+    "created_at": 1546275661000,
+    "owner_name": "我的 MCN ",
+    "company_name": "爱谁谁公司",
+    "bank_name": "北京招商银行股份有限公司",
+    "bank_account_name": "北京意格传媒有限公司",
+    "contact_name": "联系人",
+    "contact_phone_number": "1151015452",
+    "bank_account": "6217000010054583763",
+    "rechange_date": "1546275661000",
+    "rechange_money": 100000,
+    "rechange_voucher": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+    "rechange_type": 1,
+    "status": "unaudited",
+    "operator": "aran.hu@lal.com"
+  },
+  "recharge-audits": {
+    "paging": {
+      "is_end": true,
+      "is_start": true,
+      "next": "string",
+      "previous": "string",
+      "totals": 20
+    },
+    "data": [
+      {
+        "id": 123,
+        "created_at": 1546275661000,
+        "owner_name": "string",
+        "company_name": "北京意格传媒有限公司",
+        "bank_name": "北京招商银行股份有限公司",
+        "bank_account_name": "北京意格传媒有限公司",
+        "bank_account": "6217000010054583763",
+        "rechange_date": "string",
+        "rechange_money": 10000,
+        "rechange_voucher": "string",
+        "rechange_type": 1,
+        "status": "unaudited",
+        "operator": "aran.hu@lal.com"
+      },
+      {
+        "id": 321,
+        "created_at": 1546275661000,
+        "owner_name": "string",
+        "company_name": "北京意格传媒有限公司",
+        "bank_name": "北京招商银行股份有限公司",
+        "bank_account_name": "北京意格传媒有限公司",
+        "bank_account": "6217000010054583763",
+        "rechange_date": "string",
+        "rechange_money": 22222210,
+        "rechange_voucher": "string",
+        "rechange_type": 1,
+        "status": "approved",
+        "operator": "aran.hu@qq.com"
+      },
+      {
+        "id": 3213,
+        "created_at": 0,
+        "owner_name": "string",
+        "company_name": "北京意格传媒有限公司",
+        "bank_name": "北京招商银行股份有限公司",
+        "bank_account_name": "北京意格传媒有限公司",
+        "bank_account": "6217000010054583763",
+        "rechange_date": "string",
+        "rechange_money": 123,
+        "rechange_voucher": "string",
+        "rechange_type": 1,
+        "status": "rejected",
+        "operator": "aran.hu@qq.com"
+      }
+    ]
+  },
+  "puSearch": {
     "paging": {
       "is_end": true,
       "is_start": true,
@@ -91,12 +335,18 @@
     "bank_account": "string",
     "account_opening_license_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
     "brand_intro": "string",
-    "additional_document": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+    "additional_document": [
+      {
+        "name": "我就是个附件.xml",
+        "url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+      }
+    ],
     "contact_name": "string",
     "contact_phone_number": "string",
     "remark": "string",
     "is_enabled": true,
-    "created_at": 0
+    "created_at": 0,
+    "attachment_id": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
   },
   "customers": {
     "paging": {
@@ -109,7 +359,7 @@
     "data": [
       {
         "id": 123333,
-        "name": "string",
+        "name": "MCN 联盟 1",
         "type": "mcn客户",
         "quota": 2000,
         "quota_type": "每月",
@@ -132,7 +382,7 @@
       },
       {
         "id": 222,
-        "name": "string",
+        "name": "MCN 联盟 2",
         "type": "爱谁苏的客户",
         "quota": 500,
         "quota_type": "每月",
@@ -156,25 +406,25 @@
     ]
   },
   "mcn": {
-    "id": 666,
-    "name": "TM传媒",
+    "id": 123,
+    "name": "意格传媒",
     "email": "bingqi123@163.com",
     "telephone": "15101075739",
     "company_name": "意格传媒有限公司",
     "company_intro": "随便的一个公司",
-    "skill_field_list": ["1", "3"],
-    "business_license_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+    "skill_field_list": ["string"],
+    "business_license_url": "string",
     "unified_social_credit_card": "string",
-    "corporate_front_id_card_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
-    "corporate_back_id_card_url": "http://b-ssl.duitang.com/uploads/item/201506/16/20150616140410_Et43a.jpeg",
+    "corporate_front_id_card_url": "string",
+    "corporate_back_id_card_url": "string",
     "bank_name": "string",
     "bank_account": "string",
-    "account_opening_license_url": "https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png",
+    "account_opening_license_url": "string",
     "contact_name": "string",
     "contact_phone_number": "string",
     "remark": "string",
     "created_at": 1546275661000,
-    "is_enabled": true
+    "is_enabled": false
   },
   "mcns": {
     "paging": {
@@ -200,15 +450,15 @@
         "bank_name": "string",
         "bank_account": "string",
         "account_opening_license_url": "string",
-        "contact_name": "string",
-        "contact_phone_number": "string",
+        "contact_name": "凹凸曼",
+        "contact_phone_number": "15101075555",
         "remark": "string",
         "created_at": 1546275661000,
         "is_enabled": true
       },
       {
-        "id": 123,
-        "name": "意格传媒",
+        "id": 321,
+        "name": "大众点评",
         "email": "bingqi123@163.com",
         "telephone": "15101075739",
         "company_name": "意格传媒有限公司",
@@ -221,8 +471,8 @@
         "bank_name": "string",
         "bank_account": "string",
         "account_opening_license_url": "string",
-        "contact_name": "string",
-        "contact_phone_number": "string",
+        "contact_name": "小怪兽",
+        "contact_phone_number": "1510131525",
         "remark": "string",
         "created_at": 1546275661000,
         "is_enabled": false

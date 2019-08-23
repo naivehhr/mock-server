@@ -1,3 +1,6 @@
 {
-  "/api/*": "/$1"
+  "/api/*": "/$1",
+  "/pu/search*": "/puSearch",
+  "/pu/:id/detail": "/pu",
+  "/task/:id": "/task"
 }
